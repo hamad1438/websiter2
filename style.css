@@ -1,0 +1,770 @@
+@import url(https://db.onlinewebfonts.com/c/a45fce96e8ca11c25c0b3415807e7fcf?family=URW+Criterion+W01+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"URW Criterion W01 Bold";
+  
+}
+html{
+    font-size: 11px;
+   
+}
+
+
+body{
+    background-color: white;
+}
+aside {
+  width: 280px;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 0 70px rgba(0, 0, 0, 0.3); /* ظل من اليمين فقط */
+  padding: 20px;
+ 
+
+}
+
+aside img{
+    width:290px;
+    height: 290px;
+    margin: 10px;
+}
+
+aside nav{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-left: 39%;
+}
+
+aside nav a{
+    font-family: "Playfair Display", "serif";
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0;
+}
+
+.home{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    color: #97090a;
+}
+
+aside nav a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    color: #97090a;
+}
+
+aside hr{
+    width: 95%;
+    margin: 70px 0 30px 0;
+    
+}
+
+aside .icons{
+    color: white;
+    display: flex;
+align-items: center;
+    margin:0 0 5% 31%;
+}
+
+aside .icons a{
+    color: white;
+    margin: 0 2px 0 2px;
+    padding: 7px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+    background-color: #97090a
+}
+
+aside .icons a i{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+aside .icons a:hover{
+    background-color: #9f3434;
+   
+}
+
+main{
+    margin-left: 280px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://www.whatsoutaddis.com/wp-content/uploads/2022/06/123.jpeg");
+    background-size: cover;
+
+}
+
+main .content{
+   margin-left: 58%;
+   padding: 30px;
+    background-color: #97090a;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 53%;
+ 
+
+}
+
+
+main .content h1{
+    white-space: pre-line;
+    font-weight: 700;
+    font-size: 4.5rem;
+  
+}
+
+main .content h2{
+    white-space: pre-line;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+font-weight: 100;
+    margin-bottom: 20px;
+}
+main .content .button{
+    background-color: white;
+    color: #97090a;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 1.5rem;
+    width: 36%;
+    height: 56px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+main .content .button span{
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   font-family: 'Times New Roman', Times, serif;
+}
+main .content .button:hover{
+   background-color: rgb(231, 235, 239);
+}
+
+section{
+    padding: 4%;
+    margin-left: 280px;
+    background-color: rgb(219, 214, 208);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* ظل من اليمين فقط */
+    width: 650px;
+    height: 550px;
+}
+
+section div p{
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 40ch; /* يحدد الحد الأقصى لعدد الأحرف قبل النزول لسطر جديد */
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.6;
+}
+
+section div button{
+    margin-bottom: 3%;
+    border: none;
+    width: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #97090a;
+    margin-top: 7%;
+    color: white;
+    font-size: 3.5rem;
+    
+    cursor: text;
+}
+
+
+.services{
+    
+    text-align: center;
+    display: flex;
+   
+    flex-direction: column;
+    margin-left: 280px;
+    padding: 4%;
+    background-color: white;
+    height: 100vh;
+}
+
+.services h1{
+
+    font-size: 3rem;
+    font-family: "Playfair Display", "serif";
+font-weight: 500;
+    text-transform: uppercase;
+}
+.services i{
+    font-size: 5rem;
+    color: #97090a;
+    margin-top: 3px;
+}
+
+.servises-card{
+width: 100%;
+}
+.servises-card .card1 {
+    display:flex;
+ 
+}
+
+.servises-card .card1 img{
+    width:450px;
+    height:350px;
+  
+}
+
+#one-card,#imgone{
+    margin: 0 1% 0 1%;
+}
+
+.servises-card .card1 .details{
+   
+background-color: #f9f9f9;
+width: 450px;
+height: 350px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.servises-card .card1 .details h2{
+    font-size: 2rem;
+    font-family: "Playfair Display", "serif";}
+
+.servises-card .card1 .details p{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+   
+    white-space: pre-wrap;
+}
+
+.img-after{
+    margin-left: 280px;
+    width: 80%;
+    margin-top:15%;
+    height: 300px;
+}
+
+menu{
+    margin-left: 280px;
+    padding: 4%;
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+menu h1{
+    font-size: 3rem;
+    font-family: "Playfair Display", "serif";
+    text-align: center;
+}
+
+menu i{
+    font-size: 5rem !important;
+    color: #97090a;
+    text-align: center;
+    margin-top: 3px;
+}
+
+menu .details .card{
+    display: flex;
+    text-align: center;
+   
+    margin-left: 280px;
+    padding: 1%;
+}
+
+menu .topic div{
+    margin: 1% 0 1% 2%;
+    width: 100px;
+    text-align: center;
+    padding-top: 3px;
+    height: 30px;
+    border: 2px solid #97090a;
+    background-color: white;
+    border-radius: 4px;
+    
+}
+
+menu .topic div:hover,
+menu .topic div:hover span{
+    color: white;
+    background-color: #97090a;
+    
+    cursor: pointer;
+
+}
+
+
+
+menu .topic #boss{
+    background-color: #97090a;
+    color: white;
+}
+
+menu .topic #boss span{
+    color: white;
+    
+}
+
+menu .topic #boss:hover, menu .topic #boss:hover span{
+    background-color: #9f3434;
+    cursor: pointer;
+}
+
+menu .topic div span{
+margin-top: 3%;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #97090a;
+    font-weight: 600;
+  
+}
+menu .details .card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+   padding-right: 20px;
+    background-color:  #f9f9f9;
+    margin: 1% 0 1% 0;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* ظل من اليمين فقط */
+ transition: 0.5s ease-in-out;
+} 
+
+menu .details .card:hover{
+scale: 1.02;
+cursor: pointer;
+}
+
+menu .details h2{
+    margin-bottom: 1%;
+    font-size: 3rem;
+    font-family:  "Poppins", sans-serif;
+}
+
+menu .details .card img{
+    width: 250px;
+    height: 150px;
+    margin: 2% 1% 0 1%;
+   
+}
+menu .details .card .text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+   padding: 2%;
+}
+
+menu .details .card .text h3{
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+menu .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+menu .price span{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #97090a;
+    margin-left: 260px;
+   
+   
+}
+
+
+menu .details .card .text p{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300;
+  
+}
+
+menu .details .card .text p span{
+margin-left:260px;
+color: #97090a;
+font-size: 2rem;
+}
+
+.instagram{
+    margin-top: 29%;
+    margin-left: 280px;
+    padding: 4%;
+    background-color:  rgb(231, 235, 239);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+
+.instagram h1{
+    font-size: 3rem;
+    font-family: "Playfair Display", "serif";
+    text-align: center;
+    text-transform: uppercase;
+}
+.instagram i{
+    font-size: 3rem !important;
+    color: #97090a;
+ 
+    margin: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.instagram .insta-content{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+}
+
+.insta-content .logo img{
+    margin: 1%;
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.06); /* ظل من اليمين فقط */
+}
+
+.insta-content .logo img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    
+}
+.insta-content .details{
+   position: absolute;
+   bottom:79%;
+   left: 83%;
+   padding: 6px;
+}
+
+.insta-content .details h2{
+    font-size: 1.5rem;
+    font-family: "Playfair Display", "serif";
+   margin-bottom: 3px;
+}
+.insta-content .details h4{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3px;
+ 
+    font-weight:bold;
+}
+.insta-content .details pre{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    color: #7d7979;
+    font-weight:bold;
+}
+
+.insta-content .cards{
+    display: flex;
+   position: absolute;
+    right: 5px;
+    top: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+width: 100%;
+height: 100%;
+padding: 6px;
+    
+}
+
+.insta-content .cards img{
+   width: 350px;
+   height: 180px;
+   transition: ease-in-out 0.5s;
+} 
+
+.insta-content .cards img:hover{
+    cursor: pointer;
+    scale: 1.009;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.06); /* ظل من اليمين فقط */
+}
+
+.insta-content .button{
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 1%;
+    border: none;
+    background-color: rgb(0, 191, 255);
+    width: 96%;
+    border-radius: 3px;
+    height: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+.insta-content .button:hover{
+    background-color: rgb(0, 161, 255);
+    cursor: pointer;
+   
+    scale: 1.01;
+}
+
+.contact{
+    margin-left: 280px;
+    padding: 4%;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.contact h2{
+    font-size: 3rem;
+    font-family: "Playfair Display", "serif";
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact i{
+    font-size: 4rem !important;
+    color: #97090a;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.contact form{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;}
+    
+   
+
+.contact form input{
+    margin: 4px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* ظل من اليمين فقط */
+    transition: 0.5s ease-in-out;
+}
+.contact form input:focus{
+    scale: 1.01;
+}
+
+.contact form button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #97090a;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-left: 6px;
+}
+
+
+footer{
+    height: fit-content;
+    margin-left: 280px;
+    padding: 4%;
+    background-color: black;
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+footer i{
+    font-size: 2rem !important;
+    color: #97090a;
+    text-align: center;
+
+    margin-left: 45%;
+}
+
+footer nav{
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 1%;
+}
+
+footer nav a{
+    font-family: "Playfair Display", "serif";
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+   
+    cursor: pointer;
+   
+    margin: 1%;
+}
+
+footer p{
+    font-size: 1.0rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 60px;
+}
+
+
+@media (max-width: 1200px) {
+    aside {
+      display: none;
+    }
+main,section,menu,.services,.instagram,.contact,.img-after,footer{
+    margin-left: 0;
+    height: 50vh;
+}
+    main {
+      
+      width: 100%;
+      height: 30vh;
+    }
+    section {
+     
+      width: 100%;
+    }
+    main .content {
+     margin-left: 80px;
+      height: 20vh;
+    }
+    section{
+       padding-top: 67px;
+       height: 35vh;
+    }
+
+    .services{
+        height: 30vh;
+    }
+    .img-after{
+        margin-left: 0;
+        margin-top: 260px;
+        width: 100%;
+        height: 20vh;
+    }
+    menu{
+        height: 42vh;
+    }
+    menu .topic{
+        display: flex;
+       
+        align-items: center;
+        margin-left: 230px;
+    }
+    .instagram{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+     
+    }
+    .instagram  h1{
+       margin-top: 60px;
+    }
+    
+    .insta-content .cards{
+        
+        position: absolute;
+        right: 0;
+        top: 30px;
+        
+       display: grid;
+
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+       
+       gap:10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .insta-content .cards img{
+        margin: 10px;
+        width: 420px;
+        height: 210px;
+    }
+   
+    .contact{
+        height: 15vh;
+    }
+
+    footer{
+        height: 10vh;
+    }
+
+
+    .insta-content .details{
+        position: absolute;
+        bottom:86%;
+        left: 78%;
+        padding: 4px;
+     }
+    
+}
+
+

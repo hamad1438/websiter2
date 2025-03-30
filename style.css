@@ -302,14 +302,19 @@ menu i{
     margin-top: 3px;
 }
 
-menu .details .card{
-    display: flex;
-    text-align: center;
-   
-    margin-left: 280px;
-    padding: 1%;
-}
 
+menu .topic{
+    display: flex;
+   margin-left: 280px;
+    
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+    padding: 1%;
+  
+  
+}
 menu .topic div{
     margin: 1% 0 1% 2%;
     width: 100px;
@@ -673,7 +678,7 @@ footer p{
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     aside {
       display: none;
     }
